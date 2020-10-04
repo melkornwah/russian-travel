@@ -5,9 +5,14 @@
   line-height: 117%;
   font-size: 24px;
   font-weight: normal;
+  transition: .5s linear;
 }
 
 .header__lang-link:first-of-type {
   margin: 0;
   text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
