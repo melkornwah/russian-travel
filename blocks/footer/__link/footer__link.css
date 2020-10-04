@@ -1,0 +1,17 @@
+.footer__link {
+  margin: 0 18px 0 0;
+  line-height: 112%;
+  font-size: 16px;
+  font-weight: normal;
+  color: white;
+  transition: .5s linear;
+  text-decoration: none;
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
+}

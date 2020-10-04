@@ -45,7 +45,7 @@
 @import url("../blocks/cover/__background/cover__background.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 
-
-div, p, h1, h2, h3, a, img, header, section, body {
-  border: red solid 1px;
-}
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copy/footer__copy.css");
