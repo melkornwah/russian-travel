@@ -11,6 +11,8 @@
 
 @import url("../blocks/content/content.css");
 
+@import url("../blocks/section-centered/section-centered.css");
+
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__image/lead__image.css");
@@ -37,7 +39,13 @@
 @import url("../blocks/place/__description/place__description.css");
 @import url("../blocks/place/__text/place__text.css");
 
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/cover/__background/cover__background.css");
+@import url("../blocks/cover/__overlay/cover__overlay.css");
 
- div, p, h1, h2, h3, a, img, header, section, body {
+
+div, p, h1, h2, h3, a, img, header, section, body {
   border: red solid 1px;
 }
