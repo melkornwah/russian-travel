@@ -1,0 +1,10 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 0 80px 0;
+}
+
+.place:last-of-type {
+  margin: 0;
+}
