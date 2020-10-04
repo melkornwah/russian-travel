@@ -1,8 +1,8 @@
 .header {
-  padding: 28px 0 0 0;
+  padding: 28px 4.5% 0 4.5%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  max-width: 91%;
-  margin: auto;
+  max-width: 100%;
+  background-color: #2a2c2f;
 }
