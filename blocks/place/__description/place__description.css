@@ -1,10 +1,6 @@
 .place__description {
-  margin: 0 0 4px 32px;
+  margin: 0 0 83px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.place__description:last-child {
-  margin-bottom: 58px;
 }

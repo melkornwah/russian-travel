@@ -4,6 +4,7 @@
   font-size: 72px;
   font-weight: bold;
   text-align: center;
-  margin: 0 auto 32px auto;
-  width: 54.7%;
+  margin: 245px auto 32px auto;
+  max-width: 560px;
+  color: white;
 }
