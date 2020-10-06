@@ -30,25 +30,17 @@
 
   .places {
     margin: 92px 48px 0 48px;
-    gap:
+    row-gap: 48px;
+    column-gap: 40px;
   }
 
   .place__title {
     width: 440px;
   }
 
-  .place__website {
-    margin-left: 32px;
-  }
-
   .place__image {
     width: 100%;
   }
-
-  .place__description {
-    margin: 0 0 4px 32px;
-  }
-
 
   .cover {
     height: 640px;
