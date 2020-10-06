@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
+=======
+@media screen and (max-width: 320px) {
+>>>>>>> 2b8bc1256483cb7da3a33f1ac974b8821129266a
   .page {
     width: 320px;
   }
