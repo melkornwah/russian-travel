@@ -1,0 +1,147 @@
+@media screen and (max-width: 320px) {
+  .page {
+    width: 320px;
+  }
+
+
+  .header {
+    padding: 16px 16px 0 16px;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+
+  .header__lang-link {
+    line-height: 1.11;
+    font-size: 18px;
+  }
+
+
+  .lead__title {
+    line-height: 1.1;
+    font-size: 40px;
+    margin: 0 16px 0 16px;
+  }
+
+  .lead__subtitle {
+    line-height: 1.25;
+    font-size: 16px;
+    margin: 16px 16px 0 16px;
+  }
+
+  .lead__image {
+    margin: 40px 0 0 0;
+  }
+
+  .lead__caption {
+    margin-left: 16px;
+  }
+
+
+  .description {
+    margin: 64px 16px 0 16px;
+  }
+
+  .description__title {
+    line-height: 1.09;
+    font-size: 32px;
+  }
+
+  .line-break::before {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .line-break::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+
+  .photo-grid {
+    margin: 64px 16px 0 16px;
+    gap: 12px;
+  }
+
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
+  }
+
+  .places {
+    margin: 64px 0 0 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .place {
+    margin: 48px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .place__title {
+    line-height: 1.09;
+    font-size: 32px;
+    margin: 0 16px 0 16px;
+  }
+
+  .place__website {
+    position: absolute;
+    top: 0;
+    left: -1000px;
+    z-index: -1;
+  }
+
+  .place__description {
+    margin: 32px 16px 0 16px;
+  }
+
+
+  .cover {
+    margin-top: 64px;
+    height: 200px;
+  }
+
+  .cover__title {
+    margin: 33px 16px 16px 16px;
+    line-height: 1.09;
+    font-size: 32px;
+  }
+
+  .cover__subtitle {
+    line-height: 1.14;
+    font-size: 14px;
+    margin: 0 16px 0 16px;
+  }
+
+
+  .footer {
+    padding: 64px 0 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__link {
+    margin: 0 0 32px 0;
+    line-height: 1;
+    font-size: 24px;
+  }
+
+  .footer__link:last-child {
+    margin: 0;
+  }
+
+  .footer__copy {
+    margin-top: 48px;
+    line-height: 1;
+  }
+}

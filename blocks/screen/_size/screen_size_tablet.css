@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+
+
+  .header {
+    padding: 28px 24px 0 24px;
+  }
+
+
+  .lead {
+    margin: 0;
+  }
+
+  .lead__title {
+    word-wrap: break-word;
+  }
+
+  .lead__caption {
+    margin-left: 24px;
+  }
+
+
+  .description {
+    margin: 88px 24px 0 24px;
+    max-width: 720px;
+  }
+
+
+  .photo-grid {
+    margin: 88px 24px 0 24px;
+    gap: 16px;
+  }
+
+  .photo-grid__item {
+    height: 264px;
+  }
+
+
+  .line-break::before {
+    content: "\A";
+    white-space: pre;
+  }
+
+
+  .places {
+    margin: 88px 24px 0 24px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+    max-width: 340px;
+    width: 100%;
+  }
+
+  .place__website {
+    margin-left: 28px;
+  }
+
+  .place__image {
+    width: 100%;
+  }
+
+  .place__description {
+    margin: 0 0 0 28px;
+  }
+
+  .place__text {
+    font-size: 16px;
+  }
+
+
+  .cover {
+    margin: 88px 0 0 0;
+    height: 100%;
+  }
+
+  .cover__title {
+    margin-top: 115px;
+    word-wrap: break-word;
+  }
+
+
+  .footer {
+    padding: 88px 24px 24px 24px;
+  }
+}
