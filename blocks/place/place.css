@@ -1,7 +1,12 @@
 .place {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0px, 484px));
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas:
+  "title website"
+  "image description";
+  justify-content: start;
   margin: 0 0 80px 0;
 }
 

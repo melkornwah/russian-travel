@@ -2,6 +2,7 @@
   margin: 0;
   color: white;
   transition: .5s linear;
+  word-break: break-all;
 }
 
 .place__website-link:hover {

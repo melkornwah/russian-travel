@@ -1,0 +1,60 @@
+@media screen and (max-width: 1280px) {
+  .page {
+    max-width: 1024px;
+  }
+
+
+  .lead {
+    margin: 0 48px 0 48px;
+  }
+
+  .lead__title {
+    padding-top: 48px;
+  }
+
+
+  .description {
+    margin: 92px 48px 0 48px;
+  }
+
+
+  .photo-grid {
+    margin: 92px 48px 0 48px;
+    gap: 14px;
+  }
+
+  .photo-grid__item {
+    height: 225px;
+  }
+
+
+  .places {
+    margin: 92px 48px 0 48px;
+    gap:
+  }
+
+  .place__title {
+    width: 440px;
+  }
+
+  .place__website {
+    margin-left: 32px;
+  }
+
+  .place__image {
+    width: 100%;
+  }
+
+  .place__description {
+    margin: 0 0 4px 32px;
+  }
+
+
+  .cover {
+    height: 640px;
+  }
+
+  .cover__title {
+    margin-top: 195px;
+  }
+}

@@ -1,6 +1,7 @@
 .place__description {
-  margin: 0 0 83px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  grid-area: description;
+  display: block;
+  height: fit-content;
+  max-width: 484px;
+  margin: 0;
 }
