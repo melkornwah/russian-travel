@@ -6,3 +6,22 @@
   margin: 9.4vh 23vw 0 7.7vw;
   max-width: 690px;
 }
+
+@media screen and (max-width: 1279px) {
+  .description {
+    margin: 92px 2.5vw 0 2.5vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .description {
+    margin: 88px 1.25vw 0 1.25vw;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    margin: 64px 0.8vw 0 0.8vw;
+  }
+}

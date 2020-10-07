@@ -5,3 +5,9 @@
   max-width: 484px;
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .place__description {
+    margin: 0 0.8vw 0 0.8vw;
+  }
+}
