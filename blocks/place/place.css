@@ -6,10 +6,9 @@
   grid-template-areas:
   "title website"
   "image description";
-  justify-content: start;
   margin: 0 0 80px 0;
 }
 
-.place:last-of-type {
-  margin: 0;
+.place:last-child {
+  margin-bottom: 0;
 }

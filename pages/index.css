@@ -49,9 +49,3 @@
 @import url("../blocks/footer/__copy/footer__copy.css");
 
 @import url("../blocks/screen/screen.css");
-
-
-/*
-div, h2, a, img, li {
-  border: solid red 1px;
-}

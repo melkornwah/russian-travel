@@ -6,7 +6,8 @@
   font-weight: bold;
   position: relative;
   width: 100%;
-  max-width: 24vw;
+  max-width: 460px;
   height: fit-content;
   word-wrap: break-word;
+  vertical-align: bottom;
 }

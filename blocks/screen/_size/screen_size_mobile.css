@@ -5,7 +5,7 @@
 
 
   .header {
-    padding: 16px 16px 0 16px;
+    padding: 16px 0.8vw 0 0.8vw;
   }
 
   .header__logo {
@@ -22,13 +22,13 @@
   .lead__title {
     line-height: 1.1;
     font-size: 40px;
-    margin: 0 16px 0 16px;
+    margin: 0 0.8vw 0 0.8vw;
   }
 
   .lead__subtitle {
     line-height: 1.25;
     font-size: 16px;
-    margin: 16px 16px 0 16px;
+    margin: 16px 0.8vw 0 0.8vw;
   }
 
   .lead__image {
@@ -36,12 +36,12 @@
   }
 
   .lead__caption {
-    margin-left: 16px;
+    margin-left: 0.8vw;
   }
 
 
   .description {
-    margin: 64px 16px 0 16px;
+    margin: 64px 0.8vw 0 0.8vw;
   }
 
   .description__title {
@@ -61,7 +61,7 @@
 
 
   .photo-grid {
-    margin: 64px 16px 0 16px;
+    margin: 64px 0.8vw 0 0.8vw;
     gap: 12px;
   }
 
@@ -72,32 +72,28 @@
 
   .places {
     margin: 64px 0 0 0;
-    overflow: hidden;
-    position: relative;
   }
 
   .place {
     margin: 48px 0 0 0;
+    row-gap: 32px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
   }
 
   .place__title {
     line-height: 1.09;
     font-size: 32px;
-    margin: 0 16px 0 16px;
+    margin: 0 0.8vw 0 0.8vw;
+    width: 288px;
   }
 
   .place__website {
-    position: absolute;
-    top: 0;
-    left: -1000px;
-    z-index: -1;
+    display: none;
   }
 
   .place__description {
-    margin: 32px 16px 0 16px;
+    margin: 0 0.8vw 0 0.8vw;
   }
 
 
@@ -107,7 +103,7 @@
   }
 
   .cover__title {
-    margin: 33px 16px 16px 16px;
+    margin: 33px 0 16px 0;
     line-height: 1.09;
     font-size: 32px;
   }
@@ -115,7 +111,7 @@
   .cover__subtitle {
     line-height: 1.14;
     font-size: 14px;
-    margin: 0 16px 0 16px;
+    margin: 0;
   }
 
 
