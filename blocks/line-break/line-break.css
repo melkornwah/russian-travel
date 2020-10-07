@@ -1,0 +1,20 @@
+.line-break {
+  content: none;
+}
+
+@media screen and (max-width: 767px) {
+  .line-break::before {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .line-break::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .line-break::before {
+    content: "\A";
+    white-space: pre;
+  }
+}

@@ -9,3 +9,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (max-width: 1279px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    width: 320px;
+  }
+}

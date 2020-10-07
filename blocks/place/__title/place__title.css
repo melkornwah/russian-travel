@@ -11,3 +11,27 @@
   word-wrap: break-word;
   vertical-align: bottom;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__title {
+    width: 440px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+    max-width: 340px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    line-height: 1.09;
+    font-size: 32px;
+    margin: 0 0.8vw 0 0.8vw;
+    width: 288px;
+  }
+}
