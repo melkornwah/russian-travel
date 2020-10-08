@@ -27,7 +27,6 @@
   .photo-grid {
     display: flex;
     flex-direction: column;
-    row-gap: 12px;
-    column-gap: 0;
+    gap: 0;
   }
 }
