@@ -1,17 +1,21 @@
 .lead {
   justify-content: center;
   align-items: center;
-  margin: 0 7.7vw 0 7.7vw;
+  margin: 56px auto 0 auto;
+  width: 100%;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
-    margin: 0 2.5vw 0 2.5vw;
+    margin-top: 48px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead {
-    margin: 0;
+    margin: 48px 0 0 0;
+    max-width: 768px;
   }
 }

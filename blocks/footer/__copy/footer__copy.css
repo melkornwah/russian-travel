@@ -3,6 +3,8 @@
   line-height: 1.14;
   font-size: 14px;
   font-weight: normal;
+  width: 100%;
+  max-width: fit-content;
 }
 
 @media screen and (max-width: 767px) {

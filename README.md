@@ -15,6 +15,6 @@
 
 **Ссылка на проект**
 
-Ссылка проекта на GitHub: [https://github.com/melkornwah/russian-travel](https://github.com/melkornwah/russian-travel)
+Ссылка проекта на GitHub Pages: [https://melkornwah.github.io/russian-travel/](https://melkornwah.github.io/russian-travel/)
 
 Спасибо за внимание к проекту!

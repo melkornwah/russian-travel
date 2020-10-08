@@ -2,12 +2,25 @@
   grid-area: description;
   display: block;
   height: fit-content;
-  max-width: 484px;
+  min-width: 484px;
   margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__description {
+    min-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__description {
+    min-width: 352px;
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place__description {
-    margin: 0 0.8vw 0 0.8vw;
+    min-width: 288px;
   }
 }
