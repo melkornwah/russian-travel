@@ -3,24 +3,26 @@
   height: 213px;
   margin: 0;
   padding: 0;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1279px) {
   .photo-grid__item {
-    height: 225px;
+    min-height: 225px;
+    min-width: 300px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid__item {
-    height: 264px;
+    min-height: 264px;
+    min-width: 352px;
   }
 }
 
 @media screen and (max-width: 1279px) {
   .photo-grid__item {
-    width: 288px;
-    height: 216px;
+    min-width: 288px;
+    min-height: 216px;
   }
 }
