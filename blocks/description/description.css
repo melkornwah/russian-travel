@@ -4,26 +4,26 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 92px 0 0 148px;
-  width: 100%;
   max-width: 690px;
 }
 
 @media screen and (max-width: 1279px) {
   .description {
-    margin: 92px auto 0 auto;
-    max-width: 690px;
+    margin: 92px 0 0 48px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .description {
-    margin-top: 88px;
+    margin: 88px auto 0 auto;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description {
-    margin: 64px 0 0 0;
+    margin: 64px auto 0 auto;
+    width: 288px;
+    max-width: 288px;
   }
 }

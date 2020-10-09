@@ -9,14 +9,14 @@
   .cover {
     min-height: 640px;
     max-width: 1024px;
-    margin:92px 0 0 0;
+    margin: 92px 0 0 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     margin: 88px 0 0 0;
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 

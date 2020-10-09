@@ -5,10 +5,7 @@
   font-size: 72px;
   font-weight: 900;
   position: relative;
-  width: 100%;
   max-width: 460px;
-  height: fit-content;
-  word-wrap: break-word;
   vertical-align: bottom;
 }
 
@@ -23,7 +20,6 @@
     font-size: 42px;
     line-height: 1.1;
     max-width: 340px;
-    width: 100%;
   }
 }
 
@@ -31,7 +27,7 @@
   .place__title {
     line-height: 1.09;
     font-size: 32px;
-    margin: 0 0.8vw 0 0.8vw;
+    margin: 0 auto 0 auto;
     max-width: 288px;
   }
 }
