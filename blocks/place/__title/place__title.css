@@ -27,7 +27,7 @@
   .place__title {
     line-height: 1.09;
     font-size: 32px;
-    margin: 0 auto 0 auto;
+    margin-left: 16px;
     max-width: 288px;
   }
 }
