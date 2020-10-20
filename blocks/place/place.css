@@ -33,7 +33,7 @@
 @media screen and (max-width: 767px) {
   .place {
     margin-bottom: 48px;
-    row-gap: 32px;
+    row-gap: 0;
     display: flex;
     flex-direction: column;
     max-width: 320px;
