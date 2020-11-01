@@ -1,5 +1,5 @@
 .photo-grid {
-  margin: 92px 48px 0 48px;
+  margin: 92px 128px 0 128px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;

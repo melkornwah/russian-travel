@@ -19,7 +19,13 @@
 
 @media screen and (max-width: 767px) {
   .place__description {
-    max-width: 288px;
+    max-width: 343px;
     margin: 0 auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .place__description {
+    max-width: 288px;
   }
 }

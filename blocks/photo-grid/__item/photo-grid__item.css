@@ -22,12 +22,21 @@
 
 @media screen and (max-width: 767px) {
   .photo-grid__item {
-    max-width: 288px;
-    max-height: 216px;
-    margin-top: 12px;
+    max-width: 343px;
+    max-height: 232px;
+    margin-top: 15px;
   }
 
   .photo-grid__item:first-child {
     margin: 0;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .photo-grid__item {
+    max-width: 288px;
+    max-height: 192px;
+    margin-top: 8px;
+  }
+}
+

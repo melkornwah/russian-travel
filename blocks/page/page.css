@@ -10,6 +10,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (min-width: 1440px) {
+  .page {
+    max-width: 1440px;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .page {
     max-width: 1024px;
@@ -23,6 +29,12 @@
 }
 
 @media screen and (max-width: 767px) {
+  .page {
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width: 374px) {
   .page {
     width: 320px;
   }
